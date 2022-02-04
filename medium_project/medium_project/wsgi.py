@@ -16,3 +16,4 @@ from dj_static import Cling
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'medium_project.settings')
 
 application = Cling(get_wsgi_application())
+
