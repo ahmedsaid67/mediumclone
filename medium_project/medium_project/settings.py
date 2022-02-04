@@ -25,7 +25,7 @@ SECRET_KEY = 'ke^^ke6)s^i-1ggl7d!=hihi(nfyd7g$tb(e!5_90x_mtixex0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['clonemedium1.herokuapp.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -41,7 +41,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -119,8 +118,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-STATIC_ROOT= '/staticfiles'
 
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,"static"),]

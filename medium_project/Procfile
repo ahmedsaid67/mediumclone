@@ -1,1 +1,0 @@
-web: gunicorn medium_project.wsgi --log-file -
