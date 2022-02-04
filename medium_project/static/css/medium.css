@@ -1,0 +1,20 @@
+.bg-yellow {
+    background-color: #FFC017;
+}
+
+.border-botton-dark {
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.body {
+    font-family: 'Comforter', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.aside-buttons > li {
+    margin-bottom: 10px;
+}
+
+.border-top-dark {
+    border-top: 1px solid rgba(230,230,230,1);
+}
